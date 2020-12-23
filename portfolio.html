@@ -19,12 +19,12 @@
         </nav>
         <!-- Contacts conteiner-->
         <div>
-            <ul>
+            <ul class="contacts-list">
                 <li>
-                    <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
+                    <a class="contacts-list-link" href="mailto:info@devstudio.com"> info@devstudio.com </a>
                 </li>
                 <li>
-                    <a href="callto:+380961111111"> +38 096 111 11 11 </a>
+                    <a class="contacts-list-link" href="callto:+380961111111"> +38 096 111 11 11 </a>
                 </li>
             </ul>
         </div>
@@ -32,17 +32,27 @@
     <main>
     <!-- Service conteiner-->
     <section>
-        <ul>
-            <li> <h3> ВСЕ </h3></li>
-            <li> <h3> Веб-сайты </h3> </li>
-            <li>  <h3> Приложения </h3> </li>
-            <li> <h3> Дизайн </h3> </li>
-            <li> <h3> Маркетинг </h3> </li>
+        <ul class="worktype-filters">
+            <li>
+                <button class="filter-button-active" type="button">Все</button>
+            </li>
+            <li>
+                <button class="filter-button" type="button">Веб-сайты</button>
+            </li>
+            <li>
+                <button class="filter-button" type="button">Приложения</button>
+            </li>
+            <li>
+                <button class="filter-button" type="button">Дизайн</button>
+            </li>
+            <li>
+                <button class="filter-button" type="button">Маркетинг</button>
+            </li>
         </ul>
     </section>
-    <!-- Works conteiner-->
+    <!-- Work example conteiner-->
     <section>
-        <ul>
+        <ul class="work-examples">
             <li>
                 <img src="./images portfolio/img_p1.png" alt="Открытый ноутбук">
                 <h3><b>Технокряк</b></h3>
@@ -93,17 +103,17 @@
     </main>
     <footer>
         <!-- Contacts-->
-        <div>
-            <a href="/">WebStudio</a>
+        <div class="footer-list">
+            <a class="logo" href="index.html">Web<span class="logo-studio">Studio</span></a>
             <ul>
                 <li>
-                    <p>г.Киев, пр-т Леси Украинки, 26</p>
+                    <p class="address">г.Киев, пр-т Леси Украинки, 26</p>
                 </li>
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a class="contacts" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="contacts" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </div>    
