@@ -8,25 +8,29 @@
     --secondary-text-color: #757575;
     --accent-color: #2196f3;
     --white-text-color: #ffffff;
-  }  
+}  
+  /* Убираем маркеры */
 li {
-    list-style-type: none; /* Убираем маркеры */
-  }
+    list-style-type: none; 
+}
+  /* Убираем подчёркивание */
 a {
-    text-decoration: none; /* Убираем подчёркивание */
-  }
+    text-decoration: none; 
+}
 body {
     width: 1600px;
     background-color: #ffffff;
     font-family: "Oleo Script", cursive;
     font-family: "Raleway", sans-serif;
     font-family: "Roboto", sans-serif;
-  }
+}
 .header {
     width: 1600px;
     height: 80px;
 }
-/* WebStudio */
+
+/* Logo WebStudio */
+
 .logo{
     width: 145px;
     height: 31px;
@@ -38,17 +42,18 @@ body {
     line-height: 31px;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo-studio{
-    color: #000;
+    color: var(--primary-text-color);
 }
 .logo:hover,
 .logo:active,
 .logo:focus {
     color: var(--accent-color);
 }
-/* Навигация */
+
+/* Navigation */
 
 .nav-list-link-active{
     font-style: normal;
@@ -56,7 +61,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .nav-list-link{
     font-style: normal;
@@ -64,10 +69,10 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color:  #212121;
+    color: var(--primary-text-color);
 }
 
-/* Контакты */
+/* Contacts */
 
 .contacts-list-link {
     font-style: normal;
@@ -75,7 +80,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .contacts-list-link:hover,
 .contacts-list-link:active,
@@ -87,7 +92,8 @@ body {
 .nav-list-link:focus {
     color: var(--accent-color);
 }
-/* Эффективные решения для вашего бизнеса */
+
+/* Hero section */
 
 .hero-section{
     width: 1600px;
@@ -124,12 +130,12 @@ button {
     height: 50px;
     left: 700px;
     top: 430px;
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
-/* Наши особенности */
+/* Our features */
 
 .feature-title{
     font-style: normal;
@@ -149,7 +155,8 @@ button {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-/* Чем мы занимаемся */
+
+/* What we do */
 
 .what-we-do-title{
     font-style: normal;
@@ -160,7 +167,8 @@ button {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-/* Наша команда */
+
+/* Our team */
 
 .our-team-title{
     font-style: normal;
@@ -171,7 +179,8 @@ button {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-/* team */
+
+/* Our team members */
 
 .person-title{
     font-style: normal;
@@ -193,7 +202,8 @@ button {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-/* Address */
+
+/* Address and Contacts*/
 
 .footer-list{
     width: 1600px;
@@ -226,7 +236,7 @@ button {
     color: var(--accent-color);
 }
 
-/* Портфолио */
+/* Portfolio.html */
 
 /* Service conteiner */
 
@@ -239,26 +249,17 @@ button {
     border-radius: 4px;
     border: none;
 }
-.filter-button-active{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.63;
-    color: var(--white-text-color);
-    background: #2196F3;    ;
-    border-radius: 4px;
-    border: none;
-}
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
-  background-color: #2196F3;
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
 }
 .work-examples h3 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.06em;
-  }
-  .work-examples p {
+}
+.work-examples p {
     font-size: 16px;
     color: var(--secondary-text-color);
-  }
+}
