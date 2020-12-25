@@ -26,9 +26,8 @@ body {
 }
 header {
     width: 1600px;
-    height: 80px;
+    height: 120px;
 }
-
 /* Logo WebStudio */
 
 .logo{
@@ -71,9 +70,7 @@ header {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-
 /* Contacts */
-
 .contacts-list-link {
     font-style: normal;
     font-weight: 500;
@@ -92,9 +89,7 @@ header {
 .nav-list-link:focus {
     color: var(--accent-color);
 }
-
 /* Hero section */
-
 .hero-section{
     width: 1600px;
     height: 200px;
