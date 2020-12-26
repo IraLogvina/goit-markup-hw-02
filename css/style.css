@@ -46,6 +46,9 @@ header {
 .logo-studio{
     color: var(--primary-text-color);
 }
+.logo-studio-footer{
+    color: var(--white-text-color);
+}
 .logo:hover,
 .logo:active,
 .logo:focus {
