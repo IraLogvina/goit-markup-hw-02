@@ -9,25 +9,11 @@
     --accent-color: #2196f3;
     --white-text-color: #ffffff;
 }  
-  /* Убираем маркеры */
-li {
-    list-style-type: none; 
-}
-  /* Убираем подчёркивание */
-a {
-    text-decoration: none; 
-}
 body {
-    width: 1600px;
-    background-color: #ffffff;
-    font-family: "Oleo Script", cursive;
-    font-family: "Raleway", sans-serif;
+    background-color: var(--white-text-color);
     font-family: "Roboto", sans-serif;
 }
-header {
-    width: 1600px;
-    height: 130px;
-}
+
 /* Logo WebStudio */
 
 .logo{
@@ -35,6 +21,7 @@ header {
     height: 31px;
     left: 215px;
     top: 24px;
+    font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -42,6 +29,7 @@ header {
     /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    text-decoration: none; 
 }
 .logo-studio{
     color: var(--primary-text-color);
@@ -64,6 +52,7 @@ header {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+    text-decoration: none; 
 }
 .nav-list-link{
     font-style: normal;
@@ -72,8 +61,10 @@ header {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    text-decoration: none; 
 }
 /* Contacts */
+
 .contacts-list-link {
     font-style: normal;
     font-weight: 500;
@@ -81,6 +72,7 @@ header {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    text-decoration: none; 
 }
 .contacts-list-link:hover,
 .contacts-list-link:active,
@@ -92,9 +84,10 @@ header {
 .nav-list-link:focus {
     color: var(--accent-color);
 }
+
 /* Hero section */
+
 .hero-section{
-    width: 1600px;
     height: 200px;
     left: 0px;
     top: 80px;
@@ -204,7 +197,6 @@ button {
 /* Address and Contacts*/
 
 .footer-list{
-    width: 1600px;
     height: 252px;
     left: 0px;
     top: 2097px;
@@ -218,6 +210,7 @@ button {
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--white-text-color);
+    text-decoration: none; 
 }
 .contacts{
     font-style: normal;
@@ -227,6 +220,7 @@ button {
     /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none; 
 }
 .contacts:hover,
 .contacts:active,
