@@ -18,11 +18,7 @@ body {
 /* Logo WebStudio */
 
 .logo{
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
